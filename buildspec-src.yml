@@ -15,6 +15,6 @@ phases:
       - echo Build completed on 'date'
   post_build:
     commands:
-      - echo Deliver Artifact To Remove Tomcat Server 'date'
+      - echo Deliver Artifact To Remote Tomcat Server 'date'
 artifacts:
   files: -'**/*'
